@@ -1,3 +1,7 @@
+document.getElementById("blog").addEventListener("click", function () {
+  window.location.href = "../blog.html";
+});
+
 document.getElementById("donate-now").addEventListener("click", function () {
   const inputDonateMoney = inputFileValue("donate-amound");
   if (inputDonateMoney <= 0 || isNaN(inputDonateMoney)) {
