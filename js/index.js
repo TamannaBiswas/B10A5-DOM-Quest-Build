@@ -1,5 +1,5 @@
 document.getElementById("blog").addEventListener("click", function () {
-  window.location.href = "../blog.html";
+  window.location.href = "/B10A5-DOM-Quest-Build/blog.html";
 });
 
 document.getElementById("donate-now").addEventListener("click", function () {
